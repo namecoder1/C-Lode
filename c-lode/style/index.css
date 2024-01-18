@@ -1,0 +1,82 @@
+
+header {
+    color: #fff;
+    background: #4c6ca0;
+    border-color: #446190;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 4px;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mission-h {
+    font-style: italic;
+    color: #203d6b;
+}
+
+#mission-p {
+    font-style: oblique;
+    font-weight: 500;
+    
+}
+
+/*NavBar Styling*/
+.nav-bar {
+    list-style: none; /*togliere i punti alla lista*/
+    margin: 0; /*toglie margine tra bordo e pagina*/
+    padding: 0; /*toglie margine tra contenuto e bordo*/
+    background: #4c6ca0;
+    border-radius: 5px;
+    overflow: auto; /*riattiva il background color (che puo scomparire se usiamo il comando float)*/ 
+}
+
+.nav-bar li {
+    float: left; /*permette di far gallegiare elementi*/
+}
+
+.nav-bar li a {
+    display: block; 
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.nav-bar li a:hover {
+    background-color: #446190; /*impostato piu scuro per distinugere*/
+    color:#f4f4f4;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+/*Styling Menu Laterale*/
+.side-menu  {
+    list-style: none; /*togliere i punti alla lista*/
+    border: 2px solid gray;
+    border-radius: 10px; /*arrotonda*/
+    width: 100px;
+    padding: 18px;
+}
+
+.side-menu li {
+    font-size: 19px;
+    line-height: 2em; /*linee divisorie*/
+    border-bottom: dotted 2px gray;
+}
+
+.side-menu li:last-child { /*pseudo-selector, rimuove ultimo elemento di linee,..*/
+    border: none;
+}
+
+.side-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.side-menu li a:hover { /*cambio al passaggio mouse*/
+    color: coral;
+}

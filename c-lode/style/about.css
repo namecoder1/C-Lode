@@ -1,0 +1,37 @@
+header {
+    color: #fff;
+    background: #4c6ca0;
+    border-color: #446190;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 4px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar {
+    list-style: none; /*togliere i punti alla lista*/
+    margin: 0; /*toglie margine tra bordo e pagina*/
+    padding: 0; /*toglie margine tra contenuto e bordo*/
+    background: #4c6ca0;
+    border-radius: 5px;
+    overflow: auto; /*riattiva il background color (che puo scomparire se usiamo il comando float)*/ 
+}
+
+.nav-bar li {
+    float: left; /*permette di far gallegiare elementi*/
+}
+
+.nav-bar li a {
+    display: block; 
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.nav-bar li a:hover {
+    background-color: #446190; /*impostato piu scuro per distinugere*/
+    color:#f4f4f4;
+}
